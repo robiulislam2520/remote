@@ -1,0 +1,120 @@
+/* For mobile responsive  */
+@media only screen and (max-width: 667px) {
+    .container {
+        width: 95%;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .btn {
+        width: 100%;
+        padding: 13px 0;
+        margin-top: 10px;
+    }
+
+    /* Hero section */
+    .hero_content {
+        padding-bottom: 30px;
+    }
+
+    .hero_content h1,
+    .hero_content p {
+        width: 100%;
+    }
+
+    .hero_content h1 {
+        font-size: 38px;
+        line-height: 42px;
+    }
+
+    .hero_content p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    /* Details Section */
+    .details_section h2 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    .details_section .container>p {
+        width: 100%;
+        line-height: 25px;
+    }
+
+    .details_grid,
+    .contact_section .contact {
+        grid-template-columns: 1fr;
+        margin-top: 40px;
+    }
+
+    .details {
+        padding: 30px 0;
+    }
+
+    /* Contact form */
+    .contact_section .contact {
+        gap: 30px;
+        margin-top: 0px;
+    }
+
+    .contact_form_content img {
+        width: 100%;
+    }
+
+    /* Footer Section Style */
+    .footer_section .logo {
+        width: 100%;
+    }
+
+    /* Testimonial section */
+    .testimonials .flex {
+        display: block;
+    }
+
+    .testimonial .message {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .testimonials {
+        padding: 20px 20px 90px;
+        position: relative;
+    }
+
+    .testimonial {
+        padding: 20px;
+        margin: 0;
+    }
+
+    .left_icon,
+    .right_icon {
+        position: absolute;
+        content: "";
+        bottom: 20px;
+    }
+
+    .left_icon {
+        left: 30px;
+    }
+
+    .right_icon {
+        right: 30px;
+    }
+
+    /* Swipper */
+    .swiper {
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+
+/* For Tablet responsive */
+@media only screen and (min-width: 668px) and (max-width: 1024px) {
+    .container {
+        width: 95%;
+    }
+}
